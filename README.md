@@ -19,7 +19,7 @@ My C with CMake project configuration
 
 Build with unit tests and in debug mode
 ```
-cmake -B build -DCMAKE_BUILD_TYPE=Debug -DTESTS=True
+cmake -B build -DCMAKE_BUILD_TYPE=Debug
 cmake --build build
 sudo cmake --install build
 ```
